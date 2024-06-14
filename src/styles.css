@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #E5E5E5;
+}
+.app--div {
+    width: 550px;
+    height: 705px;
+    background-color: #F5F5F5;
+}
+.nav--div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+    width: auto;
+    height: 55px;
+    background-color: #F55A5A;
+}
+
+.nav--logo {
+    width: 30px;
+    height: 30px;
+    color: #DADADA;
+}
+
+.nav--div h4 {
+    color: #FFFFFF;
+}
+
+.card--div {
+    display: flex;
+    width: 471px;
+    height: 168px;
+    column-gap: 19px;
+    align-items: center;
+    margin-left: 31.5px;
+    margin-top: 40px;
+}
+
+.card--img {
+    width: 126px;
+    height: 168px;
+}
+
+.destination--details {
+    width: 326px;
+    height: 144px;
+}
+
+.location--div {
+    display: flex;
+    align-items: center;        /*center the elements VERTICALLY*/
+    justify-content: left;      /*position the elements HORIZONTALLY*/
+    column-gap: 10px;
+    
+}
+
+.location--text {
+    text-transform: uppercase;
+    font-family: inter; 
+    font-size: 10.24px;
+    padding-left: -20px;
+}
+
+.location--dot {
+    color: #F55A5A;
+}
+.google--map {
+    color: #918E9B;
+}
+.title--text {
+    font-size: 25px;
+    font-weight: bold;
+    color: #2B283A;
+    text-align: left;
+    margin-top: auto;
+}
+.trip--duration{
+    font-size: 10.5px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: -20px;
+}
+.destination--description {
+    font-size: 10.24px;
+    text-align: left;
+}
